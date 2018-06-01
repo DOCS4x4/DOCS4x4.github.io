@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+
+#logo {
+	height: 1em;
+	text-align: left;
+	vertical-align: middle;
+	padding-bottom: 0.15em;
+}
+
+#title {
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	-webkit-text-stroke: 3px white;
+	font-size: 5em;
+	background: linear-gradient(
+		to bottom,
+		#F901BA,
+		#F901BA 33.3%,
+		#1A12D9 33.3%,
+		#1A12D9 66.7%,
+		#DEF008 66.7%,
+		#DEF008 100%
+	);
+	width: 100%;
+	margin-left: 0; margin-right: 0;
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
+}
+#header {
+	text-align: center;
+	width: 100%;
+	margin-left: 0; margin-right: 0;
+	position: fixed;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	margin-left: 0; margin-right: 0;
+	text-align: center;
+	background-image: url("saltire.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+#navbar a {
+	border-radius: 3px;
+	padding: 3px;
+	font-weight: bold;
+	text-decoration: none;
+	border: 3px solid white;
+	font-size: 1.25em;
+}
+#index {
+	background-color: #F901BA;
+	color: white;
+}
+#index:hover {
+	background-color: #FF88FF;
+}
+#about {
+	background-color: #1A12D9;
+	color: white;
+}
+#about:hover {
+	background-color: #8888FF;
+}
+#competition {
+	background-color: #DEF008;
+	color: black;
+}
+#competition:hover {
+	background-color: #FFFF88;
+}
+p {
+	width: 80%;
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 2em;
+	padding: 2em;
+}
+#content-protector {
+	height: 10em;
+	display: inline-block;
+}
+.pink p {
+	background-color: #F901BA;
+	color: white;
+}
+.blue p {
+	background-color: #1A12D9;
+	color: white;
+}
+.yellow p {
+	background-color: #DEF008;
+	color: black;
+}
+p a {
+	color: white;
+	font-style: italic;
+}
+p a:hover {
+	color: #D0D0D0;
+	text-decoration: none;
+}

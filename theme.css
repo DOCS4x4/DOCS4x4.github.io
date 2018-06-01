@@ -1,13 +1,107 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
 
+
+@media screen and (max-width: 1000px) {
+	#title {
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	-webkit-text-stroke: 3px white;
+	font-size: 7em;
+	background: linear-gradient(
+		to bottom,
+		#F901BA,
+		#F901BA 33.3%,
+		#1A12D9 33.3%,
+		#1A12D9 66.7%,
+		#DEF008 66.7%,
+		#DEF008 100%
+	);
+	width: 100%;
+	margin-left: 0; margin-right: 0;
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
+}
 #logo {
 	height: 1em;
 	text-align: left;
 	vertical-align: middle;
 	padding-bottom: 0.15em;
 }
+#header {
+	text-align: center;
+	width: 100%;
+	margin-left: 0; margin-right: 0;
+	position: fixed;
+}
+#content-protector {
+	height: 15em;
+	display: inline-block;
+}
+#navbar a {
+	font-size: 3em;
+	border-radius: 3px;
+	padding: 3px;
+	font-weight: bold;
+	text-decoration: none;
+	border: 3px solid white;
+}
+#index {
+	background-color: #F901BA;
+	color: white;
+}
+#about {
+	background-color: #1A12D9;
+	color: white;
+}
+#competition {
+	background-color: #DEF008;
+	color: black;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	margin-left: 0; margin-right: 0;
+	text-align: center;
+	background-color: lightblue;
+}
+.pink p {
+	background-color: #F901BA;
+	color: white;
+}
+.blue p {
+	background-color: #1A12D9;
+	color: white;
+}
+.yellow p {
+	background-color: #DEF008;
+	color: black;
+}
+p a {
+	color: white;
+	font-style: italic;
+}
+p {
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 2em;
+	padding: 2em;
+	margin-bottom: 2em;
+}
+#credit {
+	display: none;
+}
+}
 
+@media screen and (min-width: 1001px) {
+	
+#logo {
+	height: 1em;
+	text-align: left;
+	vertical-align: middle;
+	padding-bottom: 0.15em;
+}
 #title {
 	font-family: 'Open Sans', sans-serif;
 	color: black;
@@ -103,4 +197,5 @@ p a {
 p a:hover {
 	color: #D0D0D0;
 	text-decoration: none;
+}
 }
